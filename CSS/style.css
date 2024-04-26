@@ -1,0 +1,236 @@
+@charset 'utf-8';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #F2E0C9 !important;
+}
+
+.box_div_header {
+    margin-bottom: 2vh;
+}
+
+.box_header {
+    display: flex;
+    justify-content: center;
+}
+
+.div-nav {
+    background-color: #04BFBF;
+    border-radius: 10px;
+    border: 2px inset white;
+    display: flex;
+    justify-content: space-around;
+    gap: 20vw;
+    padding: 0.5%;
+}
+
+.menu {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1rem;
+    text-shadow: 2px 2px 3px black;
+}
+
+.menu:hover {
+    color: black;
+    text-shadow: 2px 2px 2px white;
+}
+
+.login {
+    background-color: #04BFBF;
+    width: 60px;
+    border-radius: 20px;
+    float: left;
+}
+
+
+
+.div_titulos {
+    text-align: center;
+    margin: auto;
+}
+
+.lupa {
+    width: 60px;
+    margin-left: 2vw;
+}
+
+.titulo:hover {
+    box-shadow: 5px 5px 5px white;
+    transform: scale(110%);
+}
+
+.titulo {
+    background-color: #04BFBF;
+    border-radius: 30px;
+    width: 70vw;
+    color: #ffffff;
+    text-shadow: 2px 2px 3px black;
+    font-size: 5rem;
+    margin: 8vh auto auto auto;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border: 2px inset white;
+    box-shadow: 3px 3px 4px black;
+}
+
+hr {
+    width: 30vw;
+    margin: 5vh auto 2vh auto !important;
+}
+
+.subtitulo {
+    color: rgb(0, 0, 0);
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 2px #ffffff;
+}
+
+.container_geral {
+    display: grid !important;
+    grid-template-columns: 10% 90% !important;
+    grid-template-rows: 25% 25% 25% 25%;
+    padding: 1vw;
+    gap: 10px;
+}
+
+
+.contato{
+    width: 50px;
+    position: fixed;
+    opacity: 50%;
+}
+
+.contato:hover{
+    transform: scale(130%);
+    transition: all 0.3s ease-in;
+    opacity: 100;
+}
+
+.sidebar {
+    background-color: #04ADBF;
+    height: 50vh;
+    text-align: left !important;
+    padding-left: 2px;
+    line-height: 3em;
+    border-radius: 20px;
+    padding-top: 10px;
+    box-shadow: 3px 3px 4px black;
+}
+
+.lista_sidebar {
+    color: #ffffff;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+.lista_sidebar:hover {
+    color: black;
+    text-shadow: 2px 2px 2px white;
+}
+
+.side-title {
+    color: #ffffff;
+    text-shadow: 1px 1px 1px white;
+    font-size: 1.5em;
+    background-color: #025959;
+    border-radius: 20px;
+    text-align: center;
+    padding: 3px;
+}
+
+.menu_list {
+    text-decoration: none;
+}
+
+.carousel-inner {
+    height: 50vh !important;
+    margin: auto;
+    border: 2px inset rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 80vw !important;
+    box-shadow: 3px 3px 4px black;
+}
+
+.d-block {
+    margin-top: -30vh !important;
+    width: 90vw !important;
+}
+
+#carouselExampleAutoplaying {
+    width: 80vw !important;
+
+}
+
+.div_cont {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2vw;
+    flex-wrap: wrap;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    margin-bottom: 3vh;
+}
+
+.conteudo {
+    background-color: #02595983;
+    width: 25vw;
+    height: 70vh;
+    border-radius: 20px;
+    border: 1px outset white;
+    box-shadow: 3px 3px 4px black;
+}
+
+.conteudo:hover{
+    transform: scale(105%);
+    transition: all 0.3s ease-in;
+}
+
+.title_cont {
+    text-align: center;
+    margin: 1vw;
+    color: white;
+}
+
+
+.paragrafo{
+    font-size: 2em;
+    padding: 1vw;
+    color: white;
+}
+
+.div_footer {
+    background-color: #04acbf8f;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    gap: 20vw;
+    align-items: center;
+}
+
+.nav_footer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.menu_footer {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1rem;
+    text-shadow: 2px 2px 3px black;
+    text-align: center;
+}
+
+hr {
+    display: flex;
+    justify-content: center;
+}
