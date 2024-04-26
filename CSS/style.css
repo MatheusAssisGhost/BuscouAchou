@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #F2E0C9 !important;
+    background-color: #F0F0F2 !important;
 }
 
 .box_div_header {
@@ -20,7 +20,7 @@ body {
 }
 
 .div-nav {
-    background-color: #04BFBF;
+    background-color: #253659;
     border-radius: 10px;
     border: 2px inset white;
     display: flex;
@@ -37,17 +37,8 @@ body {
 }
 
 .menu:hover {
-    color: black;
     text-shadow: 2px 2px 2px white;
 }
-
-.login {
-    background-color: #04BFBF;
-    width: 60px;
-    border-radius: 20px;
-    float: left;
-}
-
 
 
 .div_titulos {
@@ -66,7 +57,7 @@ body {
 }
 
 .titulo {
-    background-color: #04BFBF;
+    background-color: #253659;
     border-radius: 30px;
     width: 70vw;
     color: #ffffff;
@@ -113,7 +104,7 @@ hr {
 }
 
 .sidebar {
-    background-color: #04ADBF;
+    background-color: #2536598c;
     height: 50vh;
     text-align: left !important;
     padding-left: 2px;
@@ -136,10 +127,10 @@ hr {
 }
 
 .side-title {
-    color: #ffffff;
+    color: black;
     text-shadow: 1px 1px 1px white;
     font-size: 1.5em;
-    background-color: #025959;
+    background-color: #EBE00E;
     border-radius: 20px;
     text-align: center;
     padding: 3px;
@@ -181,7 +172,7 @@ hr {
 }
 
 .conteudo {
-    background-color: #02595983;
+    background-color: #2536598c;
     width: 25vw;
     height: 70vh;
     border-radius: 20px;
@@ -208,7 +199,7 @@ hr {
 }
 
 .div_footer {
-    background-color: #04acbf8f;
+    background-color: #2536598c;
     height: 20vh;
     display: flex;
     justify-content: space-around;
