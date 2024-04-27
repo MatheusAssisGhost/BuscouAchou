@@ -1,13 +1,16 @@
-@charset 'utf-8';
+@charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+
 * {
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body {
-    background-image:radial-gradient(circle,  #F0F0F2 , #2536594b,  #F0F0F2 );
+    background-image: radial-gradient(circle, #F0F0F2, #2536594b, #F0F0F2);
 }
 
 .box_div_header {
@@ -57,7 +60,7 @@ body {
 }
 
 .titulo {
-    background-image:radial-gradient(circle, #253659ec, #2536594b);
+    background-image: radial-gradient(circle, #253659ec, #2536594b);
     border-radius: 30px;
     width: 70vw;
     color: white;
@@ -85,19 +88,18 @@ hr {
 .container_geral {
     display: grid !important;
     grid-template-columns: 10% 90% !important;
-    grid-template-rows: 25% 25% 25% 25%;
     padding: 1vw;
     gap: 10px;
 }
 
 
-.contato{
+.contato {
     width: 50px;
     position: fixed;
     opacity: 50%;
 }
 
-.contato:hover{
+.contato:hover {
     transform: scale(130%);
     transition: all 0.3s ease-in;
     opacity: 100;
@@ -107,7 +109,7 @@ hr {
     background-color: #2536598c;
     height: 50vh;
     text-align: left !important;
-    padding-left: 2px;
+    padding-left: 10px;
     line-height: 3em;
     border-radius: 20px;
     padding-top: 10px;
@@ -141,60 +143,149 @@ hr {
 }
 
 
-.carousel-inner {
-    height: 50vh !important;
-    margin: auto;
-    border: 2px inset rgb(255, 255, 255);
-    border-radius: 20px;
-    width: 80vw !important;
-    box-shadow: 3px 3px 4px black;
-}
-
-.d-block {
-    margin-top: -30vh !important;
-    width: 90vw !important;
-}
-
-#carouselExampleAutoplaying {
-    width: 80vw !important;
-} 
-
-.div_cont {
+.form-image {
+    width: 100%;
+    background-color: #F0F0F2;
+    padding: 1rem;
     display: flex;
-    justify-content: center;
-    flex-direction: row;
-    gap: 2vw;
-    flex-wrap: wrap;
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    margin-bottom: 3vh;
-}
-
-.conteudo {
-    background-color: #2536598c;
-    width: 25vw;
-    height: 70vh;
     border-radius: 20px;
-    border: 1px outset white;
-    box-shadow: 3px 3px 4px black;
+    margin-bottom: 5vh;
 }
 
-.conteudo:hover{
-    transform: scale(105%);
-    transition: all 0.3s ease-in;
+.form-image img {
+    width: 50%;
 }
 
-.title_cont {
-    text-align: center;
-    margin: 1vw;
-    color: white;
+.form {
+    width: 50%;
+    background-color: aliceblue;
+    padding: 1rem;
+    border-radius: 20px;
 }
 
+.form-header {
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
 
-.paragrafo{
-    font-size: 2em;
-    padding: 1vw;
+.login-button {
+    display: flex;
+    align-items: center;
+}
+
+.login-button button {
+    border: none;
+    background-color: #253659;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-button button:hover {
+    background-color: #151e31;
+}
+
+.login-button button a {
+    text-decoration: none;
+    font-weight: 500;
+    color: aliceblue;
+}
+
+.form-header h1::after {
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #253659;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.input-box input {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+
+.input-box input:hover {
+    background-color: #eee;
+}
+
+.input-box input:focus-visible {
+    outline: 1px solid #253659;
+}
+
+.input-box label,
+.gender-title h6 {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: black;
+}
+
+.input-box input::placeholder {
+    color: black;
+}
+
+.gender-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.65rem;
+    padding: 0 0 .9rem;
+    gap: 10px;
+}
+
+.gender-input {
+    display: flex;
+    align-items: center;
+}
+
+.gender-input input {
+    margin-right: 0.35rem;
+
+}
+
+.gender-input label {
+    font-size: 0.81rem;
+    font-weight: 600;
+    color: black;
+}
+
+.continue-button button {
+    width: 100%;
+    margin-top: 2.5rem;
+    border: none;
+    background-color: #253659;
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.continue-button button:hover {
+    background-color: #6a6aca;
+    color: #253659;
+}
+
+.continue-button button a {
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
     color: white;
 }
 
