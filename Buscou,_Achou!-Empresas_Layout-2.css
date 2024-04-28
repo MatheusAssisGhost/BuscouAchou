@@ -97,6 +97,8 @@ hr {
     width: 50px;
     position: fixed;
     opacity: 50%;
+    bottom: 30px;
+    right: 30px;
 }
 
 .contato:hover {
@@ -107,6 +109,7 @@ hr {
 
 .sidebar {
     background-color: #2536598c;
+    min-width: 150px;
     height: 50vh;
     text-align: left !important;
     padding-left: 2px;
@@ -200,6 +203,7 @@ h1 {
 .card{
     width: 50vw;
     height: 40vh;
+    min-height: 50vh !important;
     padding: 10px;
     border-radius: 20px !important;
     display: flex;
@@ -301,4 +305,70 @@ hr {
     font-size: 1em;
     padding: 1vw;
     color: white;
+}
+
+@media (max-width:1000px){
+    .container_geral {
+        display: flex !important;
+        justify-content: space-around !important;
+        flex-direction: column !important;
+        flex-wrap: wrap !important;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .card{
+        max-width: 80% !important;
+        min-width: 500px !important;
+        max-height: 50vh !important;
+    }
+
+    .sidebar{
+        display: none !important;
+    }
+}
+
+@media (max-width: 850px) {
+    .sidebar {
+        min-width: 200px !important;
+        max-width: 100% !important;
+        display: none !important;
+    }
+
+    .container_geral {
+        display: flex !important;
+        justify-content: space-around !important;
+        flex-direction: column !important;
+        flex-wrap: wrap !important;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .card{
+        max-width: 80% !important;
+        min-width: 500px !important;
+        max-height: 50vh !important;
+    }
+
+    .titulo{
+        font-size: 2em;
+    }
+
+    .div-nav{
+        display: flex;
+        justify-content: space-around;
+        gap: 5%;
+        width: 100%;
+    }
+
+  
+
 }

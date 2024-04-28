@@ -86,7 +86,6 @@ hr {
 }
 
 .container_geral {
-    display: grid !important;
     grid-template-columns: 10% 90% !important;
     padding: 1vw;
     gap: 10px;
@@ -97,6 +96,8 @@ hr {
     width: 50px;
     position: fixed;
     opacity: 50%;
+    bottom: 30px;
+    right: 30px;
 }
 
 .contato:hover {
@@ -315,4 +316,40 @@ hr {
 hr {
     display: flex;
     justify-content: center;
+}
+
+@media (max-width: 750px) {
+    .sidebar {
+        min-width: 200px !important;
+        max-width: 200px !important;
+        display: none !important;
+    }
+
+    .container_geral {
+        display: flex;
+    }
+
+    .titulo{
+        font-size: 2em;
+    }
+
+    .div-nav{
+        display: flex;
+        justify-content: space-around;
+        gap: 5%;
+        width: 100%;
+    }
+
+    .form-image{
+        max-width: 100%;
+    }
+
+    .form{
+        width: 100%;
+    }
+
+    .image_cad{
+        display: none;
+    }
+
 }
