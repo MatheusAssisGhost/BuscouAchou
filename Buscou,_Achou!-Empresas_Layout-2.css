@@ -217,7 +217,7 @@ h1 {
 
 .card{
     width: 40vw;
-    height: 40vh;
+    height: 400px;
     min-height: 50vh !important;
     padding: 10px;
     border-radius: 20px !important;
@@ -225,6 +225,8 @@ h1 {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    gap: 5px;
+    overflow: hidden;
 }
 
 .forn_img{
