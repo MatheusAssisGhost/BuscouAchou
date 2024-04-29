@@ -229,28 +229,13 @@ h1 {
 
 .forn_img{
     width: 50%;
+    max-width: 200px;
 }
 
 .alpi{
     width: 100%;
 }
 
-.box1 {
-    grid-area: 3;
-
-}
-
-.box2 {
-    grid-area: 3;
-}
-
-.box3 {
-    grid-area: 3;
-}
-
-img {
-    width: 100%;
-}
 
 .card h3 {
     margin-bottom: 2rem;
