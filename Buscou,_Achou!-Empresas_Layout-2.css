@@ -217,6 +217,7 @@ h1 {
 
 .card{
     width: 40vw;
+    max-width: 400px;
     height: 400px;
     min-height: 50vh !important;
     padding: 10px;
