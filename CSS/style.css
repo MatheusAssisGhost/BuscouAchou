@@ -25,7 +25,8 @@ body {
     border: 2px inset white;
     display: flex;
     justify-content: space-around;
-    gap: 20vw;
+    gap: 40px;
+    width: 100%;
     padding: 0.5%;
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 400;
@@ -110,7 +111,8 @@ hr {
 
 .sidebar {
     background-color: #2536598c;
-    height: 50vh;
+    height: 500px;
+    width: 130px;
     text-align: left !important;
     padding-left: 2px;
     line-height: 3em;
@@ -184,8 +186,9 @@ hr {
 
 .conteudo {
     background-color: #2536598c;
-    width: 25vw;
-    height: 70vh;
+    width: 450px;
+    height: 400px;
+    font-size: 0.7em;
     border-radius: 20px;
     border: 1px outset white;
     box-shadow: 3px 3px 4px black;
@@ -288,47 +291,8 @@ hr {
 
 /* RESPONSIVIDADE */
 
-@media (max-width:1500px) {
-    .container_geral {
-        display: flex !important;
-        justify-content: space-around !important;
-        flex-direction: column !important;
-        align-items: center !important;
-        flex-wrap: wrap !important;
-        margin: auto !important;
-    }
 
-    .div_cont {
-        display: flex;
-        justify-content: space-around;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: center;
-        margin-top: 20vh;
-    }
-
-
-    .conteudo{
-        max-width: 100% !important;
-        min-width: 500px !important;
-        height: 500px;
-        padding: 2% !important;
-        font-size: 1em !important;
-    }
-
-    .sidebar {
-        display: none !important;
-    }
-
-    .d-block {
-        margin: auto !important;
-        width: 90vw !important;
-        width: 100% !important;
-        height: 100% !important;
-    }
-}
-
-@media (max-width: 850px) {
+@media (max-width: 768px) {
     .sidebar {
         min-width: 200px !important;
         max-width: 100% !important;
@@ -344,6 +308,11 @@ hr {
         margin: auto !important;
     }
 
+    .d-block {
+        margin-top: 2px !important;
+        width: 90vw !important;
+    }
+
     .div_cont {
         display: flex;
         justify-content: space-around;
@@ -357,9 +326,9 @@ hr {
     .conteudo{
         max-width: 100% !important;
         min-width: 500px !important;
-        height: 500px;
+        height: 300px;
         padding: 2% !important;
-        font-size: 1em !important;
+        font-size: 0.7em !important;
     }
 
     .card {

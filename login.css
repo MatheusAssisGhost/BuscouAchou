@@ -28,7 +28,8 @@ body {
     border: 2px inset white;
     display: flex;
     justify-content: space-around;
-    gap: 20vw;
+    gap: 40px;
+    width: 100%;
     padding: 0.5%;
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 400;
@@ -112,7 +113,7 @@ hr {
 .form-image {
     background-color: #F0F0F2;
     width: 30vw;
-    height: 30vh;
+    height: 350px;
     border-radius: 20px;
     display: flex;
     justify-content: center;
@@ -238,12 +239,12 @@ hr {
 
 
     .form-image {
-        width: 100vw;
-        max-width: 100%;
+        width: 150%;
+        max-width: 150%;
     }
 
     form {
-        width: 80vw;
+        width: 100%;
         margin: auto;
     }
 

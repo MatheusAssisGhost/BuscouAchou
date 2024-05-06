@@ -26,7 +26,8 @@ body {
     border: 2px inset white;
     display: flex;
     justify-content: space-around;
-    gap: 20vw;
+    gap: 40px;
+    width: 100%;
     padding: 0.5%;
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 400;
@@ -90,11 +91,9 @@ hr {
 .container_geral {
     display: grid !important;
     grid-template-columns: 10% 90% !important;
-    grid-template-rows: 25% 25% 25% 25%;
     padding: 1vw;
     gap: 10px;
 }
-
 
 .contato {
     width: 50px;
@@ -113,7 +112,7 @@ hr {
 .sidebar {
     background-color: #2536598c;
     min-width: 150px;
-    height: 50vh;
+    height: 500px;
     text-align: left !important;
     padding-left: 2px;
     line-height: 3em;
@@ -209,7 +208,7 @@ h1 {
     flex-wrap: wrap;
     gap: 2vw;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -346,32 +345,8 @@ hr {
     color: white;
 }
 
-@media (max-width:1000px){
-    .container_geral {
-        display: flex !important;
-        justify-content: space-around !important;
-        flex-direction: column !important;
-        flex-wrap: wrap !important;
-    }
 
-    .container{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .card{
-        max-width: 80% !important;
-        min-width: 500px !important;
-        max-height: 50vh !important;
-    }
-
-    .sidebar{
-        display: none !important;
-    }
-}
-
-@media (max-width: 850px) {
+@media (max-width: 768px) {
     .sidebar {
         min-width: 200px !important;
         max-width: 100% !important;
@@ -394,7 +369,7 @@ hr {
     .card{
         max-width: 80% !important;
         min-width: 500px !important;
-        max-height: 50vh !important;
+        max-height: 450px !important;
     }
 
     .titulo{

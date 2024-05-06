@@ -28,7 +28,8 @@ body {
     border: 2px inset white;
     display: flex;
     justify-content: space-around;
-    gap: 20vw;
+    gap: 40px;
+    width: 100%;
     padding: 0.5%;
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 400;
