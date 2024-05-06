@@ -114,7 +114,7 @@ hr {
 .sidebar {
     background-color: #2536598c;
     min-width: 150px;
-    height: 50vh;
+    height: 500px;
     text-align: left !important;
     padding-left: 20px;
     line-height: 3em;
@@ -204,9 +204,10 @@ main{
 .card{
     background-color: white;
     width: 20vw;
-    height: 60vh;
+    height: 600px;
     min-height: 50vh !important;
     padding: 10px;
+    padding-top: 40px !important;
     border-radius: 20px !important;
     display: flex;
     flex-direction: column;
@@ -260,8 +261,6 @@ img {
     background-color: #EBE00E;
     opacity: 0.8;
 }
-
-
 
 
 footer {
@@ -340,30 +339,7 @@ hr {
     color: white;
 }
 
-@media (max-width:1000px){
-    .container_geral {
-        display: flex !important;
-        justify-content: space-around !important;
-        flex-direction: column !important;
-        flex-wrap: wrap !important;
-    }
 
-    .container{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .card{
-        max-width: 80% !important;
-        min-width: 500px !important;
-        max-height: 50vh !important;
-    }
-
-    .sidebar{
-        display: none !important;
-    }
-}
 
 @media (max-width: 850px) {
     .sidebar {
@@ -383,12 +359,13 @@ hr {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin-bottom: 50px;
     }
 
     .card{
         max-width: 80% !important;
-        min-width: 500px !important;
-        max-height: 50vh !important;
+        min-width: 400px !important;
+        max-height: 600px !important;
     }
 
     .titulo{
